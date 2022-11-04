@@ -1,2 +1,2 @@
-# iip-test-too
+# iip-test-tool
 HIMSS IIP Testing Tool
