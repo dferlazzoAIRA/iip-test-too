@@ -6,7 +6,7 @@
     },
     "name": "View and import response to request for vaccination history for Juan Marcel Marina",
     "description": "The EHR displays the Immunization History results (Z42) returned in response to the Z44 Query and import them into the EHR.",
-    "id": 6349672917617078077,
+    "id": 8282380338884111849,
     "position": 3,
     "type": "TA_RESPONDER",
     "protocols": [

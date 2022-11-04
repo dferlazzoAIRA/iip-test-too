@@ -1,7 +1,7 @@
 {
-    "name": "Order Influenza Vaccine",
-    "description": "The provider selects to order Influenza vaccine.",
-    "id": 3325702617401031108,
+    "name": "IPV Parental Refusal",
+    "description": "Documents mother\u2019s refusal for IPV vaccine indicating the parent decision, the reason and documents a deferral.",
+    "id": -6967776359611462013,
     "position": 6,
     "type": "SUT_MANUAL"
 }

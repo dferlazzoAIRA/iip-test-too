@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ConformanceContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UUID="636526f183443f07de12ab63" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Jungyubw/NIST_healthcare_hl7_v2_profile_schema/master/Schema/NIST%20Validation%20Schema/ConformanceContext.xsd">
-  <MetaData Date="Fri Nov 04 10:51:29 EDT 2022" Name="Contextbased Constrations" OrgName="NIST" Status="Draft" Version="No Version Info"/>
+<ConformanceContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UUID="63652f3783443f07de12bbd4" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Jungyubw/NIST_healthcare_hl7_v2_profile_schema/master/Schema/NIST%20Validation%20Schema/ConformanceContext.xsd">
+  <MetaData Date="Fri Nov 04 11:26:47 EDT 2022" Name="Contextbased Constrations" OrgName="NIST" Status="Draft" Version="No Version Info"/>
   <Constraints>
     <Message>
       <ByID ID="5ade28bf84ae9f6cddce62e4_aa72383a-7b48-46e5-a74a-82e019591fe7">
@@ -84,9 +84,9 @@
         </Constraint>
         <Constraint ID="Content" Target="3[1].7[1].1[1]">
           <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="PID[1].7[1].1[1]" Source="testcase" TestDataCategorization="Value-Test Case Fixed"/>
-          <Description>Invalid content (based on test case fixed data). The value at PID-7.1 (Time) does not match the expected value: '202110011115'.</Description>
+          <Description>Invalid content (based on test case fixed data). The value at PID-7.1 (Time) does not match the expected value: '202210011115'.</Description>
           <Assertion>
-            <PlainText IgnoreCase="true" Path="3[1].7[1].1[1]" Text="202110011115"/>
+            <PlainText IgnoreCase="true" Path="3[1].7[1].1[1]" Text="202210011115"/>
           </Assertion>
         </Constraint>
         <Constraint ID="Content" Target="3[1].8[1]">
@@ -654,9 +654,9 @@
       </Pattern>
     </Context>
     <Context List="9[*]">
-      <Pattern Ref="%9[1]%[#Value-Test Case Fixed#3[1].5[1].1[1]#08][#Value-Test Case Fixed#3[1].15[1]#6332FK34][#Value-Test Case Fixed#3[1].16[1].1[1]#20211231]">
+      <Pattern Ref="%9[1]%[#Value-Test Case Fixed#3[1].5[1].1[1]#08][#Value-Test Case Fixed#3[1].15[1]#6332FK34][#Value-Test Case Fixed#3[1].16[1].1[1]#20221231]">
         <Trigger>
-          <ErrorMessage>OrderIndifferent Trigger ERROR: [RXA.5.1 = '08' is expected] AND [ERROR RXA.15 = '6332FK34' is expected] AND [ERROR RXA.16.1 = '20211231' is expected]</ErrorMessage>
+          <ErrorMessage>OrderIndifferent Trigger ERROR: [RXA.5.1 = '08' is expected] AND [ERROR RXA.15 = '6332FK34' is expected] AND [ERROR RXA.16.1 = '20221231' is expected]</ErrorMessage>
           <Assertion>
             <FORALL>
               <AND>
@@ -669,7 +669,7 @@
               </AND>
               <AND>
                 <Presence Path="3[1].16[1].1[1]"/>
-                <PlainText IgnoreCase="true" Path="3[1].16[1].1[1]" Text="20211231"/>
+                <PlainText IgnoreCase="true" Path="3[1].16[1].1[1]" Text="20221231"/>
               </AND>
             </FORALL>
           </Assertion>
@@ -719,9 +719,9 @@
           </Constraint>
           <Constraint ID="Content" Target="3[1].3[1].1[1]">
             <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="ORDER[1].RXA[1].3[1].1[1]" Source="testcase" TestDataCategorization="Value-Test Case Fixed"/>
-            <Description>Invalid content (based on test case fixed data). The value at ORDER.RXA-3.1 (Time) does not match the expected value: '20211001'.</Description>
+            <Description>Invalid content (based on test case fixed data). The value at ORDER.RXA-3.1 (Time) does not match the expected value: '20221001'.</Description>
             <Assertion>
-              <PlainText IgnoreCase="true" Path="3[1].3[1].1[1]" Text="20211001"/>
+              <PlainText IgnoreCase="true" Path="3[1].3[1].1[1]" Text="20221001"/>
             </Assertion>
           </Constraint>
           <Constraint ID="Content" Target="3[1].5[1].1[1]">
@@ -789,9 +789,9 @@
           </Constraint>
         </Constraints>
       </Pattern>
-      <Pattern Ref="%9[2]%[#Value-Test Case Fixed#3[1].5[1].1[1]#110][#Value-Test Case Fixed#3[1].15[1]#6559FK32][#Value-Test Case Fixed#3[1].16[1].1[1]#20221231]">
+      <Pattern Ref="%9[2]%[#Value-Test Case Fixed#3[1].5[1].1[1]#110][#Value-Test Case Fixed#3[1].15[1]#6559FK32][#Value-Test Case Fixed#3[1].16[1].1[1]#20231231]">
         <Trigger>
-          <ErrorMessage>OrderIndifferent Trigger ERROR: [RXA.5.1 = '110' is expected] AND [ERROR RXA.15 = '6559FK32' is expected] AND [ERROR RXA.16.1 = '20221231' is expected]</ErrorMessage>
+          <ErrorMessage>OrderIndifferent Trigger ERROR: [RXA.5.1 = '110' is expected] AND [ERROR RXA.15 = '6559FK32' is expected] AND [ERROR RXA.16.1 = '20231231' is expected]</ErrorMessage>
           <Assertion>
             <FORALL>
               <AND>
@@ -804,7 +804,7 @@
               </AND>
               <AND>
                 <Presence Path="3[1].16[1].1[1]"/>
-                <PlainText IgnoreCase="true" Path="3[1].16[1].1[1]" Text="20221231"/>
+                <PlainText IgnoreCase="true" Path="3[1].16[1].1[1]" Text="20231231"/>
               </AND>
             </FORALL>
           </Assertion>
@@ -1029,9 +1029,9 @@
           </Constraint>
           <Constraint ID="Content" Target="3[1].16[1].1[1]">
             <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="ORDER[2].RXA[1].16[1].1[1]" Source="testcase" TestDataCategorization="Value-Test Case Fixed"/>
-            <Description>Invalid content (based on test case fixed data). The value at ORDER[2].RXA-16.1 (Time) does not match the expected value: '20221231'.</Description>
+            <Description>Invalid content (based on test case fixed data). The value at ORDER[2].RXA-16.1 (Time) does not match the expected value: '20231231'.</Description>
             <Assertion>
-              <PlainText IgnoreCase="true" Path="3[1].16[1].1[1]" Text="20221231"/>
+              <PlainText IgnoreCase="true" Path="3[1].16[1].1[1]" Text="20231231"/>
             </Assertion>
           </Constraint>
           <Constraint ID="Content" Target="3[1].17[1].1[1]">

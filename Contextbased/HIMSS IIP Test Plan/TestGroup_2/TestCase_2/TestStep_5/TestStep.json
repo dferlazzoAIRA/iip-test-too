@@ -1,7 +1,7 @@
 {
-    "name": "Attempt to order Varicella Dose",
-    "description": "The provider attempts to give a Varicella dose and is warned that it is too soon to give a live vaccine dose.",
-    "id": 3099394112271089535,
+    "name": "Order Influenza Vaccine",
+    "description": "The provider selects to order Influenza vaccine.",
+    "id": -4385308154821356106,
     "position": 5,
     "type": "SUT_MANUAL"
 }

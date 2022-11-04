@@ -6,7 +6,7 @@
     },
     "name": "Transmit the Immunization Report for Juan Marcel Marina",
     "description": "The EHR sends the Immunization Report to the Immunization Registry (VXU/Z22) for updated vaccination information from the visit. This includes all newly administered vaccines and may include historical information updated in the EHR during the visit. This also includes notification that Varicella is not administered due to history of the disease.",
-    "id": -4515951925337803631,
+    "id": 5372211664701799345,
     "position": 1,
     "type": "SUT_INITIATOR",
     "protocols": [

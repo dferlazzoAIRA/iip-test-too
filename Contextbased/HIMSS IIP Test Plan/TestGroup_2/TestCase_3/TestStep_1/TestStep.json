@@ -6,7 +6,7 @@
     },
     "name": "Transmit the immunization report to the Immunization Registry",
     "description": "The EHR sends the Immunization Report to the Immunization Registry (VXU/Z22) for updated vaccination information from the visit. This includes all newly administered vaccines and may include historical information updated in the EHR during the visit.",
-    "id": 959063560252579282,
+    "id": 1797150683044904546,
     "position": 1,
     "type": "SUT_INITIATOR",
     "protocols": [

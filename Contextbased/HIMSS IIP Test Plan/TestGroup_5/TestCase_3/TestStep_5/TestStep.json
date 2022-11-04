@@ -6,7 +6,7 @@
     },
     "name": "Transmit the Immunization Report for Juana Maria Gonzales - Multiple warning handling",
     "description": "The EHR sends the Immunization Report to the Immunization Registry (VXU/Z22) for updated vaccination information from the visit. This will result in multiple warnings from the IIS to assess the EHR ability to receive and display the warnings.",
-    "id": 1222445237619423630,
+    "id": 1192407472965335656,
     "position": 5,
     "type": "SUT_INITIATOR",
     "protocols": [

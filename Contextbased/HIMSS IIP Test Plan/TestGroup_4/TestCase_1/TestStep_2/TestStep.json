@@ -6,7 +6,7 @@
     },
     "name": "Query Registry for vaccination history and forecast for Juana Mariela Gonzales",
     "description": "The EHR generates a Z44 query for immunization history and forecast correctly and without omission according to supplied test data.",
-    "id": -4833462565588644826,
+    "id": 5380542003659328491,
     "position": 2,
     "type": "SUT_INITIATOR",
     "protocols": [

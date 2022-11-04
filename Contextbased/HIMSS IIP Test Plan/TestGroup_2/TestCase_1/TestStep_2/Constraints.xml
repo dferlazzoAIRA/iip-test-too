@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ConformanceContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UUID="636526e883443f07de12aab4" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Jungyubw/NIST_healthcare_hl7_v2_profile_schema/master/Schema/NIST%20Validation%20Schema/ConformanceContext.xsd">
-  <MetaData Date="Fri Nov 04 10:51:20 EDT 2022" Name="Contextbased Constrations" OrgName="NIST" Status="Draft" Version="No Version Info"/>
+<ConformanceContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UUID="63652f2e83443f07de12bb1e" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Jungyubw/NIST_healthcare_hl7_v2_profile_schema/master/Schema/NIST%20Validation%20Schema/ConformanceContext.xsd">
+  <MetaData Date="Fri Nov 04 11:26:38 EDT 2022" Name="Contextbased Constrations" OrgName="NIST" Status="Draft" Version="No Version Info"/>
   <Constraints>
     <Message>
       <ByID ID="5ade28bf84ae9f6cddce62f4_b760d322-9afd-439e-96f5-43db66937c4e">
@@ -98,9 +98,9 @@
         </Constraint>
         <Constraint ID="Content" Target="3[1].6[1].1[1]">
           <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="QPD[1].6[1].1[1]" Source="testcase" TestDataCategorization="Value-Test Case Fixed"/>
-          <Description>Invalid content (based on test case fixed data). The value at QPD-6.1 (Time) does not match the expected value: '201611011105'.</Description>
+          <Description>Invalid content (based on test case fixed data). The value at QPD-6.1 (Time) does not match the expected value: '201711011105'.</Description>
           <Assertion>
-            <PlainText IgnoreCase="true" Path="3[1].6[1].1[1]" Text="201611011105"/>
+            <PlainText IgnoreCase="true" Path="3[1].6[1].1[1]" Text="201711011105"/>
           </Assertion>
         </Constraint>
         <Constraint ID="Content" Target="3[1].7[1]">

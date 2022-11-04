@@ -6,7 +6,7 @@
     },
     "name": "Query Registry for vaccination history and recommendations for Anita Francesca Marina",
     "description": "Vendor SHALL be able to Generate a Z44 Query correctly and without omission according to supplied test data.",
-    "id": 6033458534006805316,
+    "id": -2983187537372065038,
     "position": 2,
     "type": "SUT_INITIATOR",
     "protocols": [

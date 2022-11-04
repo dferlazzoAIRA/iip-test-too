@@ -1,7 +1,7 @@
 {
     "name": "Vaccine Refusal Data Quality Checks",
     "description": "The provider attempts to document vaccine refusal information for Juana Mariana Vazquez in the EHR. Vaccination refusal data quality checks are verified during data entry.",
-    "id": 4793593938245086845,
+    "id": 271845325066871551,
     "position": 2,
     "type": "SUT_MANUAL"
 }
