@@ -1,0 +1,7 @@
+{
+    "protocol": "soap",
+    "name": "View Inventory",
+    "description": "Demonstrates the ability to view updated inventory supply.",
+    "id": -4161245713557277940,
+    "position": 1
+}

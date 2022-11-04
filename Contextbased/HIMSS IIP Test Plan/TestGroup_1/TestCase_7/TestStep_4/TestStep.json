@@ -1,0 +1,7 @@
+{
+    "name": "Configure Jurisdiction-Specific Vaccine Eligibility Code",
+    "description": "Demonstrates the ability to configure in-standard local vaccine eligibility codes.",
+    "id": 8214150654680796288,
+    "position": 4,
+    "type": "SUT_MANUAL"
+}

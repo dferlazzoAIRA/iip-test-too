@@ -1,0 +1,7 @@
+{
+    "name": "View the updated vaccination forecast for Juana Mariana Vazquez",
+    "description": "Using the reconciled vaccine history information, the EHR displays the current Immunization Forecast to the user for Juana Mariana Vazquez.",
+    "id": 744417874742661855,
+    "position": 7,
+    "type": "SUT_MANUAL"
+}

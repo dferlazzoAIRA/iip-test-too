@@ -1,0 +1,7 @@
+{
+    "name": "Order Influenza Vaccine",
+    "description": "The provider selects to order Influenza vaccine.",
+    "id": 3325702617401031108,
+    "position": 6,
+    "type": "SUT_MANUAL"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Enter Vaccine Inventory",
+    "description": "Demonstrates the ability to enter and update inventory with stock received.",
+    "id": -2196914951008757732,
+    "position": 1,
+    "type": "SUT_MANUAL"
+}
