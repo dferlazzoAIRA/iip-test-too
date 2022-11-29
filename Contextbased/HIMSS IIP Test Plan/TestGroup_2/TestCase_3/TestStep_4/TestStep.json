@@ -6,7 +6,7 @@
     },
     "name": "Updates Vaccination Information",
     "description": "This test step updates a vaccination administered with a correction to the lot number for the vaccine product used.",
-    "id": -3149972850540661410,
+    "id": -579913986183074382,
     "position": 4,
     "type": "SUT_INITIATOR",
     "protocols": [

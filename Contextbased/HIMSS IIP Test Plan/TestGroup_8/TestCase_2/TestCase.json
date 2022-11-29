@@ -2,6 +2,6 @@
     "protocol": "soap",
     "name": "Produce Inventory Report of Remaining Stock",
     "description": "Demonstrates the ability to generate a stock report that lists all vaccines in stock, sorted by expiration date and another sorted by source (private vs VFC stock).",
-    "id": -8917554923408588239,
+    "id": -5609781330128920783,
     "position": 2
 }

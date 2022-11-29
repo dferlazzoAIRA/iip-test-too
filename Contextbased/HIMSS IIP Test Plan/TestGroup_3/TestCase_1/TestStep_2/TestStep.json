@@ -6,7 +6,7 @@
     },
     "name": "Query Registry for vaccination history and forecast for Juan Marcel Marina",
     "description": "The EHR generates a Z44 query for immunization history and forecast correctly and without omission according to supplied test data.",
-    "id": -1049465916561494171,
+    "id": -134727898672494349,
     "position": 2,
     "type": "SUT_INITIATOR",
     "protocols": [

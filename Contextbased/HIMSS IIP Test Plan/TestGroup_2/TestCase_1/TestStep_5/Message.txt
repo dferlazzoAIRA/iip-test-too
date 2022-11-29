@@ -157,7 +157,7 @@ OBX|3|NM|30973-2^dose number in series^LN|1|2|NA^^HL70353|||||F|||20180323
 OBX|4|NM|59782-3^number of doses in series^LN|1|3|NA^^HL70353|||||F|||20180323
 OBX|5|ID|59781-5^Dose validity^LN|1|Y||||||F|||20180323
 ORC|RE||197029^OP|||||||^Martinez^J||^Herrera^Carlos^^^^^^^L^^^^^^^^^^^MD|||||OP^Oceanview Pediatrics^HL70362||||||||||||||
-RXA|0|1|20180925|20180925|161^Influenza, injectable,quadrivalent, preservative free, pediatric^CVX^49281-0518-00^FLUZONE^NDC|0.25|mL^^UCUM||00^new immunization record^NIP001|^Martinez^J|^^^OP^^^^^333 Oceanview Lane^^Stamford^CT^06901||||D8043IN8734|20190725|PMC^Sanofi Pasteur^MVX|||CP|A|||||
+RXA|0|1|20180925|20180925|150^Influenza, injectable, quadrivalent, preservative free^CVX^58160-0898-41^FLUARIX QUADRIVALENT^NDC|0.50|mL^^UCUM||00^new immunization record^NIP001|^Martinez^J|^^^OP^^^^^333 Oceanview Lane^^Stamford^CT^06901||||D8043IN8734|20190725|SKB^GlaxoSmithKline^MVX|||CP|A|||||
 RXR|C28161^Intramuscular^NCIT^IM^Intramuscular^HL70162|LT^Left Thigh^HL70163||||
 OBX|1|CE|30956-7^vaccine type^LN|1|88^influenza, unspecified formulation^CVX||||||F|||20180925
 OBX|2|CE|59779-9^Immunization Schedule used^LN|1|VXC16^ACIP^CDCPHINVS||||||F|||20180925
@@ -165,7 +165,7 @@ OBX|3|NM|30973-2^dose number in series^LN|1|1|NA^^HL70353|||||F|||20180925
 OBX|4|NM|59782-3^number of doses in series^LN|1|2|NA^^HL70353|||||F|||20180925
 OBX|5|ID|59781-5^Dose validity^LN|1|Y||||||F|||20180925
 ORC|RE||197029^OP|||||||^Martinez^J||^Herrera^Carlos^^^^^^^L^^^^^^^^^^^MD|||||OP^Oceanview Pediatrics^HL70362||||||||||||||
-RXA|0|1|20181029|20181029|161^Influenza, injectable,quadrivalent, preservative free, pediatric^CVX^49281-0518-00^FLUZONE^NDC|0.25|mL^^UCUM||00^new immunization record^NIP001|^Martinez^J|^^^OP^^^^^333 Oceanview Lane^^Stamford^CT^06901||||D8043IN8746|20190312|PMC^Sanofi Pasteur^MVX|||CP|A|||||
+RXA|0|1|20181029|20181029|150^Influenza, injectable, quadrivalent, preservative free^CVX^58160-0898-41^FLUARIX QUADRIVALENT^NDC|0.50|mL^^UCUM||00^new immunization record^NIP001|^Martinez^J|^^^OP^^^^^333 Oceanview Lane^^Stamford^CT^06901||||D8043IN8746|20190312|SKB^GlaxoSmithKline^MVX|||CP|A|||||
 RXR|C28161^Intramuscular^NCIT^IM^Intramuscular^HL70162|RT^Right Thigh^HL70163||||
 OBX|1|CE|30956-7^vaccine type^LN|1|88^influenza, unspecified formulation^CVX||||||F|||20181029
 OBX|2|CE|59779-9^Immunization Schedule used^LN|1|VXC16^ACIP^CDCPHINVS||||||F|||20181029
@@ -173,12 +173,12 @@ OBX|3|NM|30973-2^dose number in series^LN|1|2|NA^^HL70353|||||F|||20181029
 OBX|4|NM|59782-3^number of doses in series^LN|1|2|NA^^HL70353|||||F|||20181029
 OBX|5|ID|59781-5^Dose validity^LN|1|Y||||||F|||20181029
 ORC|RE||197029^OP|||||||^Martinez^J||^Herrera^Carlos^^^^^^^L^^^^^^^^^^^MD|||||OP^Oceanview Pediatrics^HL70362||||||||||||||
-RXA|0|1|20191002|20191002|161^Influenza, injectable, quadrivalent, preservative free, pediatric^CVX^49281-0519-00^FLUZONE QUADRIVALENT^NDC|.25|mL^^UCUM||00^new immunization record^NIP001|^Martinez^J|^^^OP^^^^^333 Oceanview Lane^^Stamford^CT^06901||||D9334IN9333|20200522|PMC^Sanofi Pasteur^MVX|||CP|A|||||
+RXA|0|1|20191002|20191002|150^Influenza, injectable, quadrivalent, preservative free^CVX^58160-0896-41^FLUARIX QUADRIVALENT^NDC|0.5|mL^^UCUM||00^new immunization record^NIP001|^Martinez^J|^^^OP^^^^^333 Oceanview Lane^^Stamford^CT^06901||||D9334IN9333|20200522|SKB^GlaxoSmithKline^MVX|||CP|A|||||
 RXR|C28161^Intramuscular^NCIT^IM^Intramuscular^HL70162|LD^Left Deltoid^HL70163||||
 OBX|1|CE|30956-7^vaccine type^LN|1|88^influenza, unspecified formulation^CVX||||||F|||20191002
 OBX|2|CE|59779-9^Immunization Schedule used^LN|1|VXC16^ACIP^CDCPHINVS||||||F|||20191002
 ORC|RE||197029^OP|||||||^Martinez^J||^Herrera^Carlos^^^^^^^L^^^^^^^^^^^MD|||||OP^Oceanview Pediatrics^HL70362||||||||||||||
-RXA|0|1|20201104|20201104|161^Influenza, injectable,quadrivalent, preservative free, pediatric^CVX^49281-0520-00^FLUZONE QUADRIVALENT^NDC|0.25|mL^^UCUM||00^new immunization record^NIP001|^Martinez^J|^^^OP^^^^^333 Oceanview Lane^^Stamford^CT^06901||||D9553IN2243|20210430|PMC^Sanofi Pasteur^MVX|||CP|A|||||
+RXA|0|1|20201104|20201104|150^Influenza, injectable, quadrivalent, preservative free^CVX^58160-0885-41^FLUARIX QUADRIVALENT^NDC|0.50|mL^^UCUM||00^new immunization record^NIP001|^Martinez^J|^^^OP^^^^^333 Oceanview Lane^^Stamford^CT^06901||||D9553IN2243|20210430|SKB^GlaxoSmithKline^MVX|||CP|A|||||
 RXR|C28161^Intramuscular^NCIT^IM^Intramuscular^HL70162|LD^Left Deltoid^HL70163||||
 OBX|1|CE|30956-7^vaccine type^LN|1|88^influenza, unspecified formulation^CVX||||||F|||20201104
 OBX|2|CE|59779-9^Immunization Schedule used^LN|1|VXC16^ACIP^CDCPHINVS||||||F|||20201104

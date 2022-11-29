@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ConformanceContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UUID="63652f3383443f07de12bb56" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Jungyubw/NIST_healthcare_hl7_v2_profile_schema/master/Schema/NIST%20Validation%20Schema/ConformanceContext.xsd">
-  <MetaData Date="Fri Nov 04 11:26:43 EDT 2022" Name="Contextbased Constrations" OrgName="NIST" Status="Draft" Version="No Version Info"/>
+<ConformanceContext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UUID="6386618c5da66bbe9edda2ef" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Jungyubw/NIST_healthcare_hl7_v2_profile_schema/master/Schema/NIST%20Validation%20Schema/ConformanceContext.xsd">
+  <MetaData Date="Tue Nov 29 14:46:20 EST 2022" Name="Contextbased Constrations" OrgName="NIST" Status="Draft" Version="No Version Info"/>
   <Constraints>
     <Message>
       <ByID ID="5ade28bf84ae9f6cddce62e4_aa72383a-7b48-46e5-a74a-82e019591fe7">
@@ -4840,14 +4840,14 @@
           </Context>
         </Contexts>
       </Pattern>
-      <Pattern Ref="%9[21]%[#Value-Test Case Fixed#3[1].5[1].1[1]#161][#Value-Test Case Fixed#3[1].3[1].1[1]#20210927]">
+      <Pattern Ref="%9[21]%[#Value-Test Case Fixed#3[1].5[1].1[1]#150][#Value-Test Case Fixed#3[1].3[1].1[1]#20210927]">
         <Trigger>
-          <ErrorMessage>OrderIndifferent Trigger ERROR: [RXA.5.1 = '161' is expected] AND [ERROR RXA.3.1 = '20210927' is expected]</ErrorMessage>
+          <ErrorMessage>OrderIndifferent Trigger ERROR: [RXA.5.1 = '150' is expected] AND [ERROR RXA.3.1 = '20210927' is expected]</ErrorMessage>
           <Assertion>
             <FORALL>
               <AND>
                 <Presence Path="3[1].5[1].1[1]"/>
-                <PlainText IgnoreCase="true" Path="3[1].5[1].1[1]" Text="161"/>
+                <PlainText IgnoreCase="true" Path="3[1].5[1].1[1]" Text="150"/>
               </AND>
               <AND>
                 <Presence Path="3[1].3[1].1[1]"/>
@@ -4915,9 +4915,9 @@
           </Constraint>
           <Constraint ID="Content" Target="3[1].5[1].1[1]">
             <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="ORDER[21].RXA[1].5[1].1[1]" Source="testcase" TestDataCategorization="Value-Test Case Fixed"/>
-            <Description>Invalid content (based on test case fixed data). The value at ORDER[21].RXA-5.1 (Identifier) does not match the expected value: '161'.</Description>
+            <Description>Invalid content (based on test case fixed data). The value at ORDER[21].RXA-5.1 (Identifier) does not match the expected value: '150'.</Description>
             <Assertion>
-              <PlainText IgnoreCase="true" Path="3[1].5[1].1[1]" Text="161"/>
+              <PlainText IgnoreCase="true" Path="3[1].5[1].1[1]" Text="150"/>
             </Assertion>
           </Constraint>
           <Constraint ID="Content" Target="3[1].5[1].2[1]">
@@ -5018,14 +5018,14 @@
           </Context>
         </Contexts>
       </Pattern>
-      <Pattern Ref="%9[22]%[#Value-Test Case Fixed#3[1].5[1].1[1]#161][#Value-Test Case Fixed#3[1].3[1].1[1]#20211020]">
+      <Pattern Ref="%9[22]%[#Value-Test Case Fixed#3[1].5[1].1[1]#150][#Value-Test Case Fixed#3[1].3[1].1[1]#20211020]">
         <Trigger>
-          <ErrorMessage>OrderIndifferent Trigger ERROR: [RXA.5.1 = '161' is expected] AND [ERROR RXA.3.1 = '20211020' is expected]</ErrorMessage>
+          <ErrorMessage>OrderIndifferent Trigger ERROR: [RXA.5.1 = '150' is expected] AND [ERROR RXA.3.1 = '20211020' is expected]</ErrorMessage>
           <Assertion>
             <FORALL>
               <AND>
                 <Presence Path="3[1].5[1].1[1]"/>
-                <PlainText IgnoreCase="true" Path="3[1].5[1].1[1]" Text="161"/>
+                <PlainText IgnoreCase="true" Path="3[1].5[1].1[1]" Text="150"/>
               </AND>
               <AND>
                 <Presence Path="3[1].3[1].1[1]"/>
@@ -5093,9 +5093,9 @@
           </Constraint>
           <Constraint ID="Content" Target="3[1].5[1].1[1]">
             <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="ORDER[22].RXA[1].5[1].1[1]" Source="testcase" TestDataCategorization="Value-Test Case Fixed"/>
-            <Description>Invalid content (based on test case fixed data). The value at ORDER[22].RXA-5.1 (Identifier) does not match the expected value: '161'.</Description>
+            <Description>Invalid content (based on test case fixed data). The value at ORDER[22].RXA-5.1 (Identifier) does not match the expected value: '150'.</Description>
             <Assertion>
-              <PlainText IgnoreCase="true" Path="3[1].5[1].1[1]" Text="161"/>
+              <PlainText IgnoreCase="true" Path="3[1].5[1].1[1]" Text="150"/>
             </Assertion>
           </Constraint>
           <Constraint ID="Content" Target="3[1].5[1].2[1]">
@@ -5196,14 +5196,14 @@
           </Context>
         </Contexts>
       </Pattern>
-      <Pattern Ref="%9[23]%[#Value-Test Case Fixed#3[1].5[1].1[1]#161][#Value-Test Case Fixed#3[1].3[1].1[1]#20221031]">
+      <Pattern Ref="%9[23]%[#Value-Test Case Fixed#3[1].5[1].1[1]#150][#Value-Test Case Fixed#3[1].3[1].1[1]#20221031]">
         <Trigger>
-          <ErrorMessage>OrderIndifferent Trigger ERROR: [RXA.5.1 = '161' is expected] AND [ERROR RXA.3.1 = '20221031' is expected]</ErrorMessage>
+          <ErrorMessage>OrderIndifferent Trigger ERROR: [RXA.5.1 = '150' is expected] AND [ERROR RXA.3.1 = '20221031' is expected]</ErrorMessage>
           <Assertion>
             <FORALL>
               <AND>
                 <Presence Path="3[1].5[1].1[1]"/>
-                <PlainText IgnoreCase="true" Path="3[1].5[1].1[1]" Text="161"/>
+                <PlainText IgnoreCase="true" Path="3[1].5[1].1[1]" Text="150"/>
               </AND>
               <AND>
                 <Presence Path="3[1].3[1].1[1]"/>
@@ -5285,9 +5285,9 @@
           </Constraint>
           <Constraint ID="Content" Target="3[1].5[1].1[1]">
             <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="ORDER[23].RXA[1].5[1].1[1]" Source="testcase" TestDataCategorization="Value-Test Case Fixed"/>
-            <Description>Invalid content (based on test case fixed data). The value at ORDER[23].RXA-5.1 (Identifier) does not match the expected value: '161'.</Description>
+            <Description>Invalid content (based on test case fixed data). The value at ORDER[23].RXA-5.1 (Identifier) does not match the expected value: '150'.</Description>
             <Assertion>
-              <PlainText IgnoreCase="true" Path="3[1].5[1].1[1]" Text="161"/>
+              <PlainText IgnoreCase="true" Path="3[1].5[1].1[1]" Text="150"/>
             </Assertion>
           </Constraint>
           <Constraint ID="Content" Target="3[1].5[1].2[1]">
@@ -5320,9 +5320,9 @@
           </Constraint>
           <Constraint ID="Content" Target="3[1].6[1]">
             <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="ORDER[23].RXA[1].6[1]" Source="testcase" TestDataCategorization="Value-Test Case Fixed"/>
-            <Description>Invalid content (based on test case fixed data). The value at ORDER[23].RXA-6 (Administered Amount) does not match the expected value: '0.25'.</Description>
+            <Description>Invalid content (based on test case fixed data). The value at ORDER[23].RXA-6 (Administered Amount) does not match the expected value: '0.5'.</Description>
             <Assertion>
-              <PlainText IgnoreCase="true" Path="3[1].6[1]" Text="0.25"/>
+              <PlainText IgnoreCase="true" Path="3[1].6[1]" Text="0.5"/>
             </Assertion>
           </Constraint>
           <Constraint ID="Content" Target="3[1].7[1].1[1]">
@@ -5411,9 +5411,9 @@
           </Constraint>
           <Constraint ID="Content" Target="3[1].17[1].1[1]">
             <Reference GeneratedBy="Test Case Authoring &amp; Management Tool(TCAMT)" ReferencePath="ORDER[23].RXA[1].17[1].1[1]" Source="testcase" TestDataCategorization="Value-Test Case Fixed"/>
-            <Description>Invalid content (based on test case fixed data). The value at ORDER[23].RXA-17.1 (Identifier) does not match the expected value: 'PMC'.</Description>
+            <Description>Invalid content (based on test case fixed data). The value at ORDER[23].RXA-17.1 (Identifier) does not match the expected value: 'SKB'.</Description>
             <Assertion>
-              <PlainText IgnoreCase="true" Path="3[1].17[1].1[1]" Text="PMC"/>
+              <PlainText IgnoreCase="true" Path="3[1].17[1].1[1]" Text="SKB"/>
             </Assertion>
           </Constraint>
           <Constraint ID="Content" Target="3[1].17[1].2[1]">

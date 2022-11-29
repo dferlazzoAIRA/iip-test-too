@@ -6,7 +6,7 @@
     },
     "name": "Transmit the Immunization Report for Juana Mariela Gonzales",
     "description": "The EHR sends the Immunization Report to the Immunization Registry (VXU/Z22) for updated vaccination information from the visit. This includes the vaccine deferral and may include historical information updated in the EHR during the visit.",
-    "id": -4712528349093449614,
+    "id": -4905693480377819436,
     "position": 1,
     "type": "SUT_INITIATOR",
     "protocols": [

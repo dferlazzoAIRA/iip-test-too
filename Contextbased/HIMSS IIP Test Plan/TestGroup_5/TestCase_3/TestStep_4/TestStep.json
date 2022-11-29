@@ -6,7 +6,7 @@
     },
     "name": "Receive ACK Z23 Warning - Invalid Value",
     "description": "The Immunization Registry returns a warning message indicating an invalid administration site code submitted was found during the course of filing the message.",
-    "id": 1744086347437381032,
+    "id": -778461396013230275,
     "position": 4,
     "type": "TA_RESPONDER",
     "protocols": [

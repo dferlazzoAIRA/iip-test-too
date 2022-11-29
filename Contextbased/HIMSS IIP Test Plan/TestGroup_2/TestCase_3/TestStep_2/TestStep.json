@@ -6,7 +6,7 @@
     },
     "name": "Receive ACK Z23 from Immunization Registry",
     "description": "The Immunization Registry returns a positive acknowledgement message indicating that no errors were found during the course of filing the message.",
-    "id": 9158643546805580987,
+    "id": 3629962296876423907,
     "position": 2,
     "type": "TA_RESPONDER",
     "protocols": [

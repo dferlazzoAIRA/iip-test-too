@@ -1,7 +1,7 @@
 {
     "name": "Provide access to Vaccine Information Statements",
     "description": "The EHR  is used to provide the patient access to the Vaccine Information Statements.",
-    "id": 940725159266933363,
+    "id": -211712033177045687,
     "position": 3,
     "type": "SUT_MANUAL"
 }

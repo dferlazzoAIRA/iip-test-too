@@ -1,7 +1,7 @@
 {
     "name": "Configure SOAP-based CDC WSDL",
     "description": "Demonstrates the ability to configure connectivity using the SOAP-based CDC WSDL.",
-    "id": 1029315445361784840,
+    "id": 3830776215857701395,
     "position": 3,
     "type": "SUT_MANUAL"
 }

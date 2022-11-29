@@ -1,7 +1,7 @@
 {
     "name": "Produce Acknowledgments Report",
     "description": "An EHR user is able to create a report that aggregates fatal errors reported in acknowledgment messages from the IIS",
-    "id": 4398562903003514592,
+    "id": 1388049711070478145,
     "position": 1,
     "type": "SUT_MANUAL"
 }
