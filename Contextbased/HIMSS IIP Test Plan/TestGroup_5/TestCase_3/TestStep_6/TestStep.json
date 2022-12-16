@@ -6,7 +6,7 @@
     },
     "name": "Receive ACK Z23 Multiple Warnings",
     "description": "The Immunization Registry returns a message with multiple warnings for invalid administration site codes submitted found during the course of filing the message.",
-    "id": -4324350322194373583,
+    "id": 6493377395860704116,
     "position": 6,
     "type": "TA_RESPONDER",
     "protocols": [

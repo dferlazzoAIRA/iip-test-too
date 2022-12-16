@@ -6,7 +6,7 @@
     },
     "name": "Error Handling - No persons found",
     "description": "The EHR receives a response from the registry query that no persons are found. The EHR notifies the user/clinician.",
-    "id": 8944073072233433244,
+    "id": -4374089414480042841,
     "position": 5,
     "type": "TA_RESPONDER",
     "protocols": [

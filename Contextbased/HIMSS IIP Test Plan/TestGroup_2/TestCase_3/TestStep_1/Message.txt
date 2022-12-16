@@ -7,7 +7,7 @@ RXA|0|1|20171101|20171101|08^hepatitis B vaccine, pediatric or pediatric/adolesc
 RXR|C28161^Intramuscular^NCIT^IM^Intramuscular^HL70162|LT^Left Thigh^HL70163||||
 ORC|RE||197028^SP|||||||^Molina^Sandra||^Smith^Frank^^^^^^^L^^^^^^^^^^^MD|||||SP^Shoreline Pediatrics^HL70362||||||||||||||
 RXA|0|1|20171220|20171220|08^hepatitis B vaccine, pediatric or pediatric/adolescent dosage^CVX^58160-0820-43^ENGERIX-B^NDC|0.5|mL^^UCUM||01^Historical information - source unspecified^NIP001|^Molina^Sandra|^^^SP^^^^^400 Shoreline Drive^^Stamford^CT^06901||||6352FK1|20171231|SKB^GlaxoSmithKline Biologicals SA^MVX|||CP|A
-RXR|C28161^Intramuscular^NCIT^IM^Intramuscular^HL70162|RT^Right Thigh^HL70163||||
+RXR|C28161^Intramuscular^NCIT^IM^Intramuscular^HL70162|LT^Left Thigh^HL70163||||
 ORC|RE||197029^OP|||||||^Martinez^J||^Herrera^Carlos^^^^^^^L^^^^^^^^^^^MD|||||OP^Oceanview Pediatrics^HL70362||||||||||||||
 RXA|0|1|20180520|20180520|08^hepatitis B vaccine, pediatric or pediatric/adolescent dosage^CVX^58160-0820-43^ENGERIX-B^NDC|0.5|mL^^UCUM||08^Historical information - from public agency^NIP001|^Martinez^J|^^^OP||||6352FK24|20190831|SKB^GlaxoSmithKline Biologicals SA^MVX|||CP|A|||||
 RXR|C28161^Intramuscular^NCIT^IM^Intramuscular^HL70162|LT^Left Thigh^HL70163||||

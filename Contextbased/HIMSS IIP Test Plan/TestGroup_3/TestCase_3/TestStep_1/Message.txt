@@ -70,7 +70,7 @@ ORC|RE||197029^OP|||||||^Martinez^J.||^Rodriguez^J.^^^^^^^L^^^^^^^^^^^MD|||||OP^
 RXA|0|1|20210927|20210927|150^Influenza, injectable, quadrivalent, preservative free^CVX^58160-0887-41^FLUARIX QUADRIVALENT^NDC|999|||08^^NIP001|^Martinez^J.|^^^OP^^^^^4253 Standish Way^^Stamford^CT^06903||||D8043IN8738|20220312|SKB^GlaxoSmithKline^MVX|||CP|A|||||
 RXR|C28161^Intramuscular^NCIT^IM^Intramuscular^HL70162|LT^Left Thigh^HL70163||||
 ORC|RE||197029^OP|||||||^Martinez^J.||^Rodriguez^J.^^^^^^^L^^^^^^^^^^^MD|||||OP^Oceanview Pediatrics^HL70362||||||||||||||
-RXA|0|1|20211020|20211020|150^Influenza, injectable, quadrivalent, preservative free^CVX^58160-0887-41^FLUARIX QUADRIVALENT^NDC|999|||08^^NIP001|^Martinez^J.|^^^OP^^^^^4253 Standish Way^^Stamford^CT^06903||||D8043IN8798|20220522|SKB^GlaxoSmithKline^MVX|||CP|A|||||
+RXA|0|1|20211027|20211027|150^Influenza, injectable, quadrivalent, preservative free^CVX^58160-0887-41^FLUARIX QUADRIVALENT^NDC|999|||08^^NIP001|^Martinez^J.|^^^OP^^^^^4253 Standish Way^^Stamford^CT^06903||||D8043IN8798|20220522|SKB^GlaxoSmithKline^MVX|||CP|A|||||
 RXR|C28161^Intramuscular^NCIT^IM^Intramuscular^HL70162|RT^Right Thigh^HL70163||||
 ORC|RE||197028^SP|||||||^Molina^Sandra||^Smith^Frank^^^^^^^L^^^^^^^^^^^MD|||||SP^Shoreline Pediatrics^HL70362||||||||||||||
 RXA|0|1|20221031|20221031|150^Influenza, injectable, quadrivalent, preservative free^CVX^58160-0890-41^FLUARIX QUADRIVALENT^NDC|0.5|mL^^UCUM||00^^NIP001|^Molina^Sandra|^^^SP^^^^^400 Shoreline Drive^^Stamford^CT^06901||||D8043IN8855|20231231|SKB^GlaxoSmithKline^MVX|||CP|A

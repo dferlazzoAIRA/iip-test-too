@@ -6,7 +6,7 @@
     },
     "name": "View and import response to request for vaccination history for Juana Maria Gonzales",
     "description": "The EHR displays the Immunization History results (Z42) returned in response to the Z44 Query and import them into the EHR.",
-    "id": -8454239854657038912,
+    "id": -2965249414472997841,
     "position": 7,
     "type": "TA_RESPONDER",
     "protocols": [

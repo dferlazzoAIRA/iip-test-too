@@ -6,7 +6,7 @@
     },
     "name": "Query Registry for vaccination history and forecast too many matches found response",
     "description": "Vendor SHALL be able to Generate a Z44 Query correctly and without omission according to supplied test data.",
-    "id": -2742173029330401981,
+    "id": -6306674091623466940,
     "position": 2,
     "type": "SUT_INITIATOR",
     "protocols": [

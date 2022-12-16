@@ -6,7 +6,7 @@
     },
     "name": "View and Compare response to request for vaccination history for Juana Mariana Vazquez",
     "description": "The EHR displays the Immunization History results (Z42) returned in response to the Z44 Query and compares to those in the EHR.",
-    "id": -7489409967074394099,
+    "id": -8481855002960659019,
     "position": 3,
     "type": "TA_RESPONDER",
     "protocols": [

@@ -1,7 +1,7 @@
 {
     "name": "Add New Vaccine Information",
     "description": "Demonstrates the ability to modify the configuration with new information (e.g. New Vaccine codes, new VIS document information, etc).",
-    "id": -1274540387227881348,
+    "id": -3682186291000041341,
     "position": 1,
     "type": "SUT_MANUAL"
 }

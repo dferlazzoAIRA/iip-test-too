@@ -6,7 +6,7 @@
     },
     "name": "Query Registry for vaccination history and forecast for Juana Maria Gonzales",
     "description": "Vendor SHALL be able to Generate a Z44 Query correctly and without omission according to supplied test data.",
-    "id": 3218452909774617460,
+    "id": 8651739637444314155,
     "position": 6,
     "type": "SUT_INITIATOR",
     "protocols": [

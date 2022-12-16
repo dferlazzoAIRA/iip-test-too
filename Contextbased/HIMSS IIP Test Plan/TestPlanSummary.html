@@ -39,7 +39,7 @@
 <body>
 
   <h1>Test Plan Summary</h1>
-  <h1>HIMSS IIP Test Plan V10.1.2 STAGING</h1>
+  <h1>HIMSS IIP Test Plan V10.1.3 STAGING</h1>
 
   <h3>Description</h3><br />
   <h3>Test Objectives</h3><br />
@@ -1654,18 +1654,20 @@ mso-hansi-theme-font:minor-latin;}
               <td valign="top" width="590">rotavirus, live, monovalent vaccine (CVX 119) administered 3/23/2018<br></td>
             </tr>
             <tr>
-              <td valign="top" width="590">Influenza, seasonal, injectable (CVX 161) administered 9/25/2018<br></td>
+              <td valign="top" width="590">Influenza, injectable, quadrivalent, preservative free (CVX 150) administered
+                9/25/2018<br></td>
             </tr>
             <tr>
-              <td valign="top" width="590">Influenza, seasonal, injectable (CVX 161) administered 10/29/2018<br></td>
+              <td valign="top" width="590">Influenza, injectable, quadrivalent, preservative free (CVX 150) administered
+                10/29/2018<br></td>
             </tr>
             <tr>
-              <td valign="top" width="590">Influenza, injectable, quadrivalent, preservative free, pediatric (CVX 161)
-                administered 10/2/2019<br></td>
+              <td valign="top" width="590">Influenza, injectable, quadrivalent, preservative free (CVX 150) administered
+                10/2/2019<br></td>
             </tr>
             <tr>
-              <td valign="top" width="590">Influenza, injectable, quadrivalent, preservative free, pediatric (CVX 161)
-                administered 11/4/2020<br></td>
+              <td valign="top" width="590">Influenza, injectable, quadrivalent, preservative free (CVX 150) administered
+                11/4/2020<br></td>
             </tr>
             <tr>
               <td valign="top" width="590">hepatitis A vaccine, pediatric/adolescent dosage, 2 dose schedule (CVX 83)
@@ -1692,7 +1694,7 @@ mso-hansi-theme-font:minor-latin;}
           communicated by the patient and manually entered by the clinician. When viewing such information, the provider
           can determine which immunizations were administered by the practice, which were entered historically as
           patient-reported, and which were accepted electronically from the public health registry.</p>
-        <p>&nbsp;<strong>Compare Public Health Immunization Registry (IIS) Immunization History to EHR Immunization
+        <p><strong>Compare Public Health Immunization Registry (IIS) Immunization History to EHR Immunization
             History:&nbsp;</strong>The public health immunization registry has returned the requested immunization
           history for a patient (Return Evaluated Immunization History and Forecast (Z42) &ndash; HL7 Version 2.5.1
           Implementation Guide for Immunization Messaging Release 1.5). The EHR is able to display the evaluated
@@ -2533,70 +2535,6 @@ mso-hansi-theme-font:minor-latin;}
       </td>
     </tr>
     <tr>
-      <th>Enter Immunization Data for MMR Given 2 Weeks Prior</th>
-      <td>
-        <h3>Description</h3>
-        <p>The EHR vendor loads immunization history data for an MMR dose entered 2 weeks prior to the current visit
-          date and an MMR dose that was given too early. These MMR doses serve to seed checking for the condition that
-          it is too early to give a live vaccine in TestCaseGroup: Juana Mariana Vazquez Visit, TestCase: Juana Mariana
-          Vazquez, Enter Orders and Immunizations, TestStep: Attempt to order Varicella Dose.</p><br />
-        <h3>Test Objectives</h3>
-        <p><strong>Record Past Immunizations:&nbsp;</strong>The EHR or other clinical software system allows providers
-          to enter information about immunizations given elsewhere (e.g., by another doctor, at a public health clinic,
-          pharmacy, etc.) with incomplete details.</p>
-        <p><strong>&nbsp;</strong></p>
-        <p><strong>Request/Receive Patient Immunization Data and Identify Source:</strong> The EHR stores immunization
-          history accepted electronically from other sources (such as a public health immunization registry consistent
-          with HL7 version 2.5.1, Implementation Guide for Immunization Messaging Release 1.5) or communicated by the
-          patient and manually entered by the clinician. When viewing such information, the provider can determine which
-          immunizations were administered by the practice, which were entered manually as patient-reported, and which
-          were accepted electronically from the public health registry.</p>
-        <p>&nbsp;</p>
-        <p>Supporting data for:</p>
-        <p><strong>Receive Dose Not Indicated Alert for Single Vaccine Order:</strong> The EHR or other clinical
-          software system notifies the provider in instances when there are single or combination vaccine orders that
-          are inconsistent with the expected timing intervals included in the vaccine forecast. Inconsistencies include
-          suggestion of different date(s) for ordering the vaccine(s) or indication the vaccine(s) is/are no longer
-          required.</p>
-        <p><strong>Receive Dose Not Indicated Alert Upon Vaccine Administration:&nbsp;</strong>The system notifies the
-          individual administering a vaccine that the vaccine is inconsistent with expected timing intervals as
-          suggested by the vaccine forecast. The method and timing of notification can be specified to meet local
-          clinical workflow. This requirement is a &ldquo;failsafe&rdquo; mechanism in case the provider orders a
-          vaccine dose that is inconsistent with appropriate timing intervals.</p><br />
-      </td>
-    </tr>
-    <tr>
-      <th>Attempt to order Varicella Dose</th>
-      <td>
-        <h3>Description</h3>
-        <p>The provider attempts to give a Varicella dose and is warned that it is too soon to give a live vaccine dose.
-        </p><br />
-        <h3>Test Objectives</h3>
-        <p><strong>Receive Dose Not Indicated Alert for Single Vaccine Order:</strong> The EHR or other clinical
-          software system notifies the provider in instances when there are single or combination vaccine orders that
-          are inconsistent with the expected timing intervals included in the vaccine forecast. Inconsistencies include
-          suggestion of different date(s) for ordering the vaccine(s) or indication the vaccine(s) is/are no longer
-          required.</p><br />
-      </td>
-    </tr>
-    <tr>
-      <th>Order Influenza Vaccine</th>
-      <td>
-        <h3>Description</h3>
-        <!--[if gte mso 9]><xml>
- <o:OfficeDocumentSettings>
-  <o:RelyOnVML></o:RelyOnVML>
-  <o:AllowPNG></o:AllowPNG>
- </o:OfficeDocumentSettings>
-</xml><![endif]-->
-        <p>The physician accesses the record for Juana Mariana Vazquez and:</p>
-        <p style="margin-left: 20px;">- Selects order for Influenza vaccine.</p><br />
-        <h3>Test Objectives</h3>
-        <p><strong>Enter Vaccination Order:&nbsp;</strong>The EHR or other clinical software system allows providers to
-          order immunizations for a patient using filters for type of vaccine, including combination vaccines.</p><br />
-      </td>
-    </tr>
-    <tr>
       <th>IPV Parental Refusal</th>
       <td>
         <h3>Description</h3>
@@ -3251,6 +3189,70 @@ mso-hansi-theme-font:minor-latin;}
           allows a user to enter a reason or reasons why a specific immunization was not given to a patient (e.g., due
           to contraindication, refusal, etc.). The system also stores that information in a structured way so it can be
           reported and analyzed as needed.</p><br />
+      </td>
+    </tr>
+    <tr>
+      <th>Enter Immunization Data for MMR Given 2 Weeks Prior</th>
+      <td>
+        <h3>Description</h3>
+        <p>The EHR vendor loads immunization history data for an MMR dose entered 2 weeks prior to the current visit
+          date and an MMR dose that was given too early. These MMR doses serve to seed checking for the condition that
+          it is too early to give a live vaccine in TestCaseGroup: Juana Mariana Vazquez Visit, TestCase: Juana Mariana
+          Vazquez, Enter Orders and Immunizations, TestStep: Attempt to order Varicella Dose.</p><br />
+        <h3>Test Objectives</h3>
+        <p><strong>Record Past Immunizations:&nbsp;</strong>The EHR or other clinical software system allows providers
+          to enter information about immunizations given elsewhere (e.g., by another doctor, at a public health clinic,
+          pharmacy, etc.) with incomplete details.</p>
+        <p><strong>&nbsp;</strong></p>
+        <p><strong>Request/Receive Patient Immunization Data and Identify Source:</strong> The EHR stores immunization
+          history accepted electronically from other sources (such as a public health immunization registry consistent
+          with HL7 version 2.5.1, Implementation Guide for Immunization Messaging Release 1.5) or communicated by the
+          patient and manually entered by the clinician. When viewing such information, the provider can determine which
+          immunizations were administered by the practice, which were entered manually as patient-reported, and which
+          were accepted electronically from the public health registry.</p>
+        <p>&nbsp;</p>
+        <p>Supporting data for:</p>
+        <p><strong>Receive Dose Not Indicated Alert for Single Vaccine Order:</strong> The EHR or other clinical
+          software system notifies the provider in instances when there are single or combination vaccine orders that
+          are inconsistent with the expected timing intervals included in the vaccine forecast. Inconsistencies include
+          suggestion of different date(s) for ordering the vaccine(s) or indication the vaccine(s) is/are no longer
+          required.</p>
+        <p><strong>Receive Dose Not Indicated Alert Upon Vaccine Administration:&nbsp;</strong>The system notifies the
+          individual administering a vaccine that the vaccine is inconsistent with expected timing intervals as
+          suggested by the vaccine forecast. The method and timing of notification can be specified to meet local
+          clinical workflow. This requirement is a &ldquo;failsafe&rdquo; mechanism in case the provider orders a
+          vaccine dose that is inconsistent with appropriate timing intervals.</p><br />
+      </td>
+    </tr>
+    <tr>
+      <th>Attempt to Order Varicella Dose</th>
+      <td>
+        <h3>Description</h3>
+        <p>The provider attempts to give a Varicella dose and is warned that it is too soon to give a live vaccine dose.
+        </p><br />
+        <h3>Test Objectives</h3>
+        <p><strong>Receive Dose Not Indicated Alert for Single Vaccine Order:</strong> The EHR or other clinical
+          software system notifies the provider in instances when there are single or combination vaccine orders that
+          are inconsistent with the expected timing intervals included in the vaccine forecast. Inconsistencies include
+          suggestion of different date(s) for ordering the vaccine(s) or indication the vaccine(s) is/are no longer
+          required.</p><br />
+      </td>
+    </tr>
+    <tr>
+      <th>Order Influenza Vaccine</th>
+      <td>
+        <h3>Description</h3>
+        <!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:RelyOnVML></o:RelyOnVML>
+  <o:AllowPNG></o:AllowPNG>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+        <p>The physician accesses the record for Juana Mariana Vazquez and:</p>
+        <p style="margin-left: 20px;">- Selects order for Influenza vaccine.</p><br />
+        <h3>Test Objectives</h3>
+        <p><strong>Enter Vaccination Order:&nbsp;</strong>The EHR or other clinical software system allows providers to
+          order immunizations for a patient using filters for type of vaccine, including combination vaccines.</p><br />
       </td>
     </tr>
     <tr>
@@ -4040,9 +4042,11 @@ mso-hansi-theme-font:minor-latin;}
       <th>Updates Vaccination Information</th>
       <td>
         <h3>Description</h3>
-        <p>The vaccination lot number for the Influenza dose was recorded in error. The provider updates the vaccine lot
-          number. The updated vaccine is submitted to the IIS from 8L4B3521 which was not successfully administered to
-          5H3532T6.&nbsp;</p><br />
+        <p>After administering a seasonal influenza vaccination, Sandra Molina, the nurse recording the administration
+          information realize she made a mistake in documenting the body site where the vaccine was administered. The
+          vaccination was accidentally recorded as being given in the left deltoid. However, it was actually
+          administered into the patient&rsquo;s <strong>right </strong>deltoid (HL70163 RD) because the patient had a
+          shoulder spica cast on her left side.</p><br />
         <h3>Test Objectives</h3>
         <p><strong>Transmit Standard Patient Immunization History Report:</strong> The EHR or other clinical software
           system directly or indirectly through an intermediary creates and transmits a report of a patient&#39;s newly

@@ -6,7 +6,7 @@
     },
     "name": "View and import response to request for vaccination history for adult patient Anita Francesca Marina",
     "description": "The EHR displays the Immunization History results (Z42) returned in response to the Z44 Query and import them into the EHR for adult patient Anita Francesca Marina.",
-    "id": 6501752470833590873,
+    "id": 4768263842584545745,
     "position": 3,
     "type": "TA_RESPONDER",
     "protocols": [

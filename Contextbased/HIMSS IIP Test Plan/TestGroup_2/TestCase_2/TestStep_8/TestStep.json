@@ -1,7 +1,7 @@
 {
     "name": "Record Influenza Vaccine administration",
     "description": "The provider documents in the EHR all attributes associated with the new vaccine administration.",
-    "id": -4541073317686738913,
+    "id": -7504579824807513351,
     "position": 8,
     "type": "SUT_MANUAL"
 }

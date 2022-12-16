@@ -1,5 +1,5 @@
 MSH|^~\&|Test EHR Application|X68||NIST Test Iz Reg|20221031082240-0500||VXU^V04^VXU_V04|NIST-IZ-001.00|P|2.5.1|||ER|AL|||||Z22^CDCPHINVS|IIPEHRFAC^^^^^IIP-AA-IZ-1^XX^^^100-1|IIPIISFAC^^^^^IIP-AA-IZ-1^XX^^^100-2
-PID|1||123456^^^MYEHR^MR~987633^^^MYIIS^SR||Marina^Anita^Francesca^^^^L|Ramirez^Sophia^Serena^^^^M|19870601|F||2106-3^White^CDCREC|4623 Standish Way^^Stamford^CT^06903^USA^L||^PRN^CP^^1^203^5551213||eng^English^ISO639|||||||2135-2^Hispanic or Latino^CDCREC||N
+PID|1||123456^^^MYEHR^MR~987633^^^MYIIS^SR||Marina^Anita^Francesca^^^^L|Ramirez^Sophia^Serena^^^^M|19970601|F||2106-3^White^CDCREC|4623 Standish Way^^Stamford^CT^06903^USA^L||^PRN^CP^^1^203^5551213||eng^English^ISO639|||||||2135-2^Hispanic or Latino^CDCREC||N
 PD1|||||||||||02^Reminder/Recall - any method^HL70215|N|20131001|||A|20131001|20131001
 ORC|RE||197030^MPC|||||||^Mason^Jessica||^Price^Shannon^^^^^^^L^^^^^^^^^^^MD|||||MPC^Metro Primary Care^HL70362||||||||||||||
 RXA|0|1|20180601|20180601|94^measles, mumps, rubella, and varicella virus vaccine^CVX^00006-4171-01^Proquad^NDC|0.5|mL^^UCUM||01^^NIP001|^Mason^Jessica|^^^MPC^^^^^400 Shoreline Drive^^Stamford^CT^06901||||6552FK16|20181231|MSD^Merck and Co Inc^MVX|||CP|A
