@@ -8,10 +8,10 @@ ORC|RE||197030^MPC|||||||^Mason^Jessica||^Price^Shannon^^^^^^^L^^^^^^^^^^^MD||||
 RXA|0|1|20180601|20180601|115^tetanus toxoid, reduced diphtheria toxoid, and acellular pertussis vaccine, adsorbed^CVX^49281-0400-88^Adacel^NDC|0.5|mL^^UCUM||01^^NIP001|^Mason^Jessica|^^^MPC^^^^^400 Shoreline Drive^^Stamford^CT^06901||||6932FK14|20181231|PMC^Sanofi Pasteur^MVX|||CP|A
 RXR|C28161^Intramuscular^NCIT^IM^Intramuscular^HL70162|LD^Left Deltoid^HL70163||||
 ORC|RE||197030^MPC|||||||^Mason^Jessica||^Price^Shannon^^^^^^^L^^^^^^^^^^^MD|||||MPC^Metro Primary Care^HL70362||||||||||||||
-RXA|0|1|20210901|20210901|185^influenza, recombinant, quadrivalent,injectable, preservative free^CVX^49281-0719-88^Flublok Quadrivalent^NDC|0.5|mL^^UCUM||01^^NIP001|^Mason^Jessica|^^^MPC^^^^^400 Shoreline Drive^^Stamford^CT^06901||||6475FK21|20211231|PMC^Sanofi Pasteur^MVX|||CP|A
+RXA|0|1|20210901|20210901|185^influenza, recombinant, quadrivalent,injectable, preservative free^CVX^49281-0721-88^Flublok Quadrivalent^NDC|0.5|mL^^UCUM||01^^NIP001|^Mason^Jessica|^^^MPC^^^^^400 Shoreline Drive^^Stamford^CT^06901||||6475FK21|20211231|PMC^Sanofi Pasteur^MVX|||CP|A
 RXR|C28161^Intramuscular^NCIT^IM^Intramuscular^HL70162|LD^Left Deltoid^HL70163||||
 ORC|RE||197030^MPC|||||||^Mason^Jessica||^Jobs^John^^^^^^^L^^^^^^^^^^^MD|||||MPC^Metro Primary Care^HL70362||||||||||||||
-RXA|0|1|20220901|20220901|185^influenza, recombinant, quadrivalent,injectable, preservative free^CVX^49281-0720-88^Flublok Quadrivalent^NDC|0.5|mL^^UCUM||02^Historical information - from other provider ^NIP001|^Muir^Sophia|^^^RRC^^^^^15 River Road^^Port Chester^NY^10573||||8L4B3423|20221231|PMC^Sanofi Pasteur^MVX|||CP|A
+RXA|0|1|20220901|20220901|185^influenza, recombinant, quadrivalent,injectable, preservative free^CVX^49281-0722-88^Flublok Quadrivalent^NDC|0.5|mL^^UCUM||02^Historical information - from other provider ^NIP001|^Muir^Sophia|^^^RRC^^^^^15 River Road^^Port Chester^NY^10573||||8L4B3423|20221231|PMC^Sanofi Pasteur^MVX|||CP|A
 RXR|C28161^Intramuscular^NCIT^IM^Intramuscular^HL70162|RD^Right Deltoid^HL70163||||
 ORC|RE||197030^MPC|||||||^Mason^Jessica||^Price^Shannon^^^^^^^L^^^^^^^^^^^MD|||||MPC^Metro Primary Care^HL70362||||||||||||||
 RXA|0|1|20221031|20221031|208^Pfizer-BioNTech COVID-19 Vaccine^CVX^59267-1000-01^MULTI-DOSE VIAL^NDC|0.5|mL^^UCUM||00^^NIP001|^Mason^Jessica|^^^MPC^^^^^400 Shoreline Drive^^Stamford^CT^06901||||8L7B3418|20231231|PFR^Pfizer, Inc^MVX|||CP|A

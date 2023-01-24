@@ -1,7 +1,7 @@
 {
     "name": "Produce an immunization report for Juana Mariana Vazquez including all history",
     "description": "The EHR is used to produce an immunization report for the patient including all history (the report can be provided in various formats - e.g., print, send to patient portal, etc.).",
-    "id": 1322663560835534753,
+    "id": -3980069723866836622,
     "position": 1,
     "type": "SUT_MANUAL"
 }

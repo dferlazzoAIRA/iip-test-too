@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- edited with XMLSpy v2015 rel. 3 (x64) (http://www.altova.com) by ww (NIST) -->
-<ValueSetLibrary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ValueSetLibraryIdentifier="5ade28bf84ae9f6cddce62e4_VS" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Jungyubw/NIST_healthcare_hl7_v2_profile_schema/master/Schema/NIST%20Validation%20Schema/ValueSets.xsd">  
+<ValueSetLibrary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="639cee13437e27104edfd171_5ade28bf84ae9f6cddce62e4_VS" ValueSetLibraryIdentifier="639cee13437e27104edfd171_5ade28bf84ae9f6cddce62e4_VS" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Jungyubw/NIST_healthcare_hl7_v2_profile_schema/master/Schema/NIST%20Validation%20Schema/ValueSets.xsd">  
   <MetaData Date="20200902" Name="Z22 Message ValueSets" OrgName="NIST" SpecificationName="Implementation Guide for Immunization Messaging, Release 1.5 October 1 2014" Version="1.9.11"/>  
   <NoValidation> 
     <BindingIdentifier>HL70110</BindingIdentifier>  
@@ -333,7 +333,7 @@
       <ValueElement CodeSystem="HL70396" DisplayName="Japanese Image Examination Cache" Value="JJ1017"/>  
       <ValueElement CodeSystem="HL70396" DisplayName="LanguaL" Value="LANGUAL"/>  
       <ValueElement CodeSystem="HL70396" DisplayName="Local billing code" Value="LB"/>  
-      <ValueElement CodeSystem="HL70396" DisplayName="Logical Observation Identifier Names and Codes (LOINC®)" Value="LN"/>  
+      <ValueElement CodeSystem="HL70396" DisplayName="Logical Observation Identifier Names and Codes (LOINC??)" Value="LN"/>  
       <ValueElement CodeSystem="HL70396" DisplayName="Medicaid" Value="MCD"/>  
       <ValueElement CodeSystem="HL70396" DisplayName="Medicare" Value="MCR"/>  
       <ValueElement CodeSystem="HL70396" DisplayName="Medical Device Communication" Value="MDC"/>  
@@ -2894,7 +2894,7 @@
       <ValueElement CodeSystem="HL70335" DisplayName="Cibus Diurnus (lunch)" Value="D"/>  
       <ValueElement CodeSystem="HL70335" DisplayName="Inter" Value="I"/>  
       <ValueElement CodeSystem="HL70335" DisplayName="Cibus Matutinus (breakfast)" Value="M"/>  
-      <ValueElement CodeSystem="HL70335" DisplayName="&lt;timing&gt;C (창??cum창??)&lt;meal&gt;" Value="Meal Related Timings"/>  
+      <ValueElement CodeSystem="HL70335" DisplayName="&lt;timing&gt;C (?????cum?????)&lt;meal&gt;" Value="Meal Related Timings"/>  
       <ValueElement CodeSystem="HL70335" DisplayName="one time only." Value="Once"/>  
       <ValueElement CodeSystem="HL70335" DisplayName="Post (after)" Value="P"/>  
       <ValueElement CodeSystem="HL70335" DisplayName="given as needed" Value="PRN"/>  
@@ -2915,7 +2915,7 @@
       <ValueElement CodeSystem="HL70335" DisplayName="three times a day at institution-specified times" Value="TID"/>  
       <ValueElement CodeSystem="HL70335" DisplayName="for future use, where &lt;spec&gt; is an interval specification as defined by the UNIX cron specification." Value="U &lt;spec&gt;"/>  
       <ValueElement CodeSystem="HL70335" DisplayName="Cibus Vespertinus (dinner)" Value="V"/>  
-      <ValueElement CodeSystem="HL70335" DisplayName="창??X창?? times per day at institution-specified times, where X is a numeral 5 or greater." Value="xID"/> 
+      <ValueElement CodeSystem="HL70335" DisplayName="?????X????? times per day at institution-specified times, where X is a numeral 5 or greater." Value="xID"/> 
     </ValueSetDefinition>  
     <ValueSetDefinition BindingIdentifier="HL70189" Name="Ethnic Group"> 
       <ValueElement CodeSystem="HL70189" DisplayName="Hispanic or Latino" Value="H"/>  
@@ -2938,7 +2938,7 @@
       <ValueElement CodeSystem="HL70433" DisplayName="Confused" Value="C"/>  
       <ValueElement CodeSystem="HL70433" DisplayName="Deaf" Value="D"/>  
       <ValueElement CodeSystem="HL70433" DisplayName="On IV" Value="I"/>  
-      <ValueElement CodeSystem="HL70433" DisplayName="창??No-code창?? (i.e. Do not resuscitate)" Value="N"/>  
+      <ValueElement CodeSystem="HL70433" DisplayName="?????No-code????? (i.e. Do not resuscitate)" Value="N"/>  
       <ValueElement CodeSystem="HL70433" DisplayName="Other" Value="O"/>  
       <ValueElement CodeSystem="HL70433" DisplayName="Paraplegic" Value="P"/>  
       <ValueElement CodeSystem="HL70433" DisplayName="Unknown" Value="U"/> 
@@ -3276,7 +3276,7 @@
       <ValueElement CodeSystem="HL70396" DisplayName="Japanese Image Examination Cache" Value="JJ1017"/>  
       <ValueElement CodeSystem="HL70396" DisplayName="LanguaL" Value="LANGUAL"/>  
       <ValueElement CodeSystem="HL70396" DisplayName="Local billing code" Value="LB"/>  
-      <ValueElement CodeSystem="HL70396" DisplayName="Logical Observation Identifier Names and Codes (LOINC®)" Value="LN"/>  
+      <ValueElement CodeSystem="HL70396" DisplayName="Logical Observation Identifier Names and Codes (LOINC??)" Value="LN"/>  
       <ValueElement CodeSystem="HL70396" DisplayName="Medicaid" Value="MCD"/>  
       <ValueElement CodeSystem="HL70396" DisplayName="Medicare" Value="MCR"/>  
       <ValueElement CodeSystem="HL70396" DisplayName="Medical Device Communication" Value="MDC"/>  
@@ -3529,7 +3529,7 @@
     </ValueSetDefinition>  
     <ValueSetDefinition BindingIdentifier="HL70356" Name="Alternate character set handling scheme"> 
       <ValueElement CodeSystem="HL70356" DisplayName="This is the default, indicating that there is no character set switching occurring in this message." Value="&lt;null&gt;"/>  
-      <ValueElement CodeSystem="HL70356" DisplayName="The character set switching mode specified in HL7 2.5, section 2.7.2, 창??Escape sequences supporting multiple character sets창?? and section 2.A.46, &quot;XPN - extended person name&quot;." Value="2.3"/>  
+      <ValueElement CodeSystem="HL70356" DisplayName="The character set switching mode specified in HL7 2.5, section 2.7.2, ?????Escape sequences supporting multiple character sets????? and section 2.A.46, &quot;XPN - extended person name&quot;." Value="2.3"/>  
       <ValueElement CodeSystem="HL70356" DisplayName="This standard is titled &quot;Information Technology - Character Code Structure and Extension Technique&quot;. ." Value="ISO 2022-1994"/> 
     </ValueSetDefinition>  
     <ValueSetDefinition BindingIdentifier="HL70217" Name="Visit Priority Code"> 

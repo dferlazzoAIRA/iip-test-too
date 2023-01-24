@@ -1,7 +1,7 @@
 {
     "name": "Produce Stock Inventory Report - Funding Source Sort",
     "description": "The provider uses the EHR to create a report for vaccine stock inventory sorted by funding source.",
-    "id": 5681568058820601092,
+    "id": -118876831654990742,
     "position": 2,
     "type": "SUT_MANUAL"
 }
