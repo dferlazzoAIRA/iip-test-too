@@ -1,7 +1,7 @@
 {
     "name": "Enters a medical deferral for the vaccines due",
     "description": "Enters a deferral for vaccines due (Hepatitis B, DTaP, Hib, Pneumococcal conjugate (PCV13) and Rotavirus) due to medical reason, indicating low grade fever, and defers for 1 month.",
-    "id": 5194629745091251039,
+    "id": -636704153096409767,
     "position": 3,
     "type": "SUT_MANUAL"
 }
