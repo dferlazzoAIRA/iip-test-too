@@ -1,7 +1,7 @@
 {
     "name": "Select the Set of Patients to be Seen in the Vaccination Clinic",
     "description": "The EHR allows the provider to select the patients that will be seen in the clinic for the day.",
-    "id": 5609727134482254852,
+    "id": 127061475351929924,
     "position": 1,
     "type": "SUT_MANUAL"
 }

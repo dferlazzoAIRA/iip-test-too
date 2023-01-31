@@ -1,7 +1,7 @@
 {
     "name": "Records Hepatitis B Vaccine lot number with expired lot alert",
     "description": "The provider records the vaccine administration lot number in the EHR and is alerted of the expired lot.",
-    "id": 1198668638661320043,
+    "id": -6250137419433723248,
     "position": 4,
     "type": "SUT_MANUAL"
 }

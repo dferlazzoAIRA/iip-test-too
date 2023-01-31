@@ -102,12 +102,11 @@ OBX|5|ID|59781-5^Dose validity^LN|1|Y||||||F|||20180122
 ORC|RE||197029^OP|||||||^Martinez^J||^Herrera^Carlos^^^^^^^L^^^^^^^^^^^MD|||||OP^Oceanview Pediatrics^HL70362||||||||||||||
 RXA|0|1|20180323|20180323|10^poliovirus vaccine, inactivated^CVX^49281-0860-88^IPOL^NDC|0.5|mL^^UCUM||00^new immunization record^NIP001|^Martinez^J|^^^OP^^^^^333 Oceanview Lane^^Stamford^CT^06901||||D333PV4344|20190323|PMC^Sanofi Pasteur Inc^MVX|||CP|A|||||
 RXR|C38299^Subcutaneous^NCIT^SC^Subcutaneous^HL70162|LA^Left Arm^HL70163||||
-OBX|1|CE|31044-1^Reaction^LN|1|VXC11^convulsions (fits, seizures) within 72 hours of dose^CDCPHINVS||||||F|||20180323|||||||||||
-OBX|2|CE|30956-7^vaccine type^LN|1|10^poliovirus vaccine, inactivated^CVX||||||F|||20180323
-OBX|3|CE|59779-9^Immunization Schedule used^LN|1|VXC16^ACIP^CDCPHINVS||||||F|||20180323
-OBX|4|NM|30973-2^dose number in series^LN|1|2|NA^^HL70353|||||F|||20180323
-OBX|5|NM|59782-3^number of doses in series^LN|1|4|NA^^HL70353|||||F|||20180323
-OBX|6|ID|59781-5^Dose validity^LN|1|Y||||||F|||20180323
+OBX|1|CE|30956-7^vaccine type^LN|1|10^poliovirus vaccine, inactivated^CVX||||||F|||20180323
+OBX|2|CE|59779-9^Immunization Schedule used^LN|1|VXC16^ACIP^CDCPHINVS||||||F|||20180323
+OBX|3|NM|30973-2^dose number in series^LN|1|2|NA^^HL70353|||||F|||20180323
+OBX|4|NM|59782-3^number of doses in series^LN|1|4|NA^^HL70353|||||F|||20180323
+OBX|5|ID|59781-5^Dose validity^LN|1|Y||||||F|||20180323
 ORC|RE||197029^OP|||||||^Martinez^J||^Herrera^Carlos^^^^^^^L^^^^^^^^^^^MD|||||OP^Oceanview Pediatrics^HL70362||||||||||||||
 RXA|0|1|20180122|20180122|133^pneumococcal conjugate vaccine, 13 valent^CVX^00005-1971-01^PREVNAR 13^NDC|0.5|mL^^UCUM||00^new immunization record^NIP001|^Martinez^J|^^^OP^^^^^333 Oceanview Lane^^Stamford^CT^06901||||P243V3281|20180130|PFR^Pfizer, Inc^MVX|||CP|A|||||
 RXR|C28161^Intramuscular^NCIT^IM^IM^HL70162|LT^Left Thigh^HL70163||||

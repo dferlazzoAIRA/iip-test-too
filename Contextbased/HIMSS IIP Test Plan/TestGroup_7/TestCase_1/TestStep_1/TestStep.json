@@ -1,7 +1,7 @@
 {
     "name": "Notify New Vaccine Candidate Patients",
     "description": "The provider uses the EHR to create a report for all patients that work in the healthcare industry for a vaccine campaign for a newly available vaccine.",
-    "id": -2703856211262986340,
+    "id": 4830826724913768278,
     "position": 1,
     "type": "SUT_MANUAL"
 }
