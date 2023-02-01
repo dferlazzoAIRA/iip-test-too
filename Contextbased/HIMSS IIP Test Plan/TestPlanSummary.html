@@ -39,7 +39,7 @@
 <body>
 
   <h1>Test Plan Summary</h1>
-  <h1>HIMSS IIP Test Plan V10.1.5 STAGING</h1>
+  <h1>HIMSS IIP Test Plan V10.1.6 STAGING</h1>
 
   <h3>Description</h3><br />
   <h3>Test Objectives</h3><br />
@@ -1386,7 +1386,11 @@ mso-hansi-theme-font:minor-latin;}
   </table>
   <br />
   <h2>Test Case Group: Juana Mariana Vazquez Visit</h2>
-  <h3>Description</h3><br />
+  <h3>Description</h3>
+  <p>Juana Mariana Vazquez visits the provider where her immunization history is retrieved from the registry and
+    reconciled with the local information in the medical record to determine vaccines that are due. Vaccinations are
+    ordered and administered. The parents refuse the Polio vaccine due to prior issues. The vaccines are reported to the
+    immunization registry and a vaccine summary is available for the patient.</p><br />
   <h3>Test Objectives</h3><br />
   Juana Mariana Vazquez visits the provider where her immunization history is retrieved from the registry and reconciled
   with the local information in the medical record to determine vaccines that are due. Vaccinations are ordered and
@@ -1411,8 +1415,7 @@ mso-hansi-theme-font:minor-latin;}
           the ability to view and reconcile, and import the information returned by the registry (NOTE: the Z42 message
           will be provided either manually, or as part of the tool). This test will also look at the system&#39;s
           ability to view the forecast returned by the registry and create a new forecast after reconciling the
-          information.</p>
-        <p><br></p><br />
+          information.</p><br />
         <h3>Test Objectives</h3>
         <p><strong>Select New Patient:&nbsp;</strong>The EHR or other clinical software system must allow a user to
           distinguish information about patients with similar names or identifying information in order to select the
@@ -1746,7 +1749,7 @@ mso-hansi-theme-font:minor-latin;}
       <td>
         <h3>Description</h3>
         <p>Juana Mariana Vazquez immunization registry provided Evaluated History and Forecast is reconciled with the
-          Immunization history information in the EHR.</p><br />
+          immunization history information in the EHR.</p><br />
         <h3>Test Objectives</h3>
         <p><strong>Request/Receive Patient Immunization Data and Identify Source:&nbsp;</strong>The EHR or other
           clinical software system stores immunization history accepted electronically from other sources (such as a

@@ -1,7 +1,7 @@
 {
     "name": "Attempt to enter historical vaccination for current date for Juana Mariana Vazquez",
     "description": "A historical vaccination is documented for the current date and triggers a data quality alert.",
-    "id": 8592009300143218681,
+    "id": -4180971900003552913,
     "position": 5,
     "type": "SUT_MANUAL"
 }

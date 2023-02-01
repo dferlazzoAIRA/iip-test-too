@@ -2,6 +2,6 @@
     "protocol": "soap",
     "name": "Juana Maria Gonzales Transmit Immunization Report - Error Handling",
     "description": "This Test Case verifies the ability of the EHR to handle errors and warnings in response to the Send the Immunization Report to the Immunization Registry (VXU/Z22) transaction for Juana Maria Gonzales.",
-    "id": 8123101468034066663,
+    "id": -6268883636867654693,
     "position": 3
 }

@@ -1,7 +1,7 @@
 {
     "name": "Vaccine Deferral Data Quality Checks",
     "description": "The provider attempts to document vaccine deferral information for Juana Mariela Gonzales in the EHR. Vaccination deferral data quality checks are verified during data entry.",
-    "id": 1184843375716667838,
+    "id": -8848564219002167094,
     "position": 2,
     "type": "SUT_MANUAL"
 }

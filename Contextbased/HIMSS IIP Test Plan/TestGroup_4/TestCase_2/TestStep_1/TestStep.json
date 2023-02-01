@@ -1,7 +1,7 @@
 {
     "name": "Enter Initial Clinical Information for Juana Mariela",
     "description": "The EHR captures structured data indicating that Juana Mariela has a fever in the current visit.",
-    "id": 3702872774307058254,
+    "id": -8219005600961875513,
     "position": 1,
     "type": "SUT_MANUAL"
 }
